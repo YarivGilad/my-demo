@@ -1,7 +1,11 @@
 const log = require('@ajar/marker');
 
-export const billboard = (msg)=> {
+const billboard = (msg)=> {
     log.v('-----------------')
     log.info(msg)
     log.v('-----------------')
+}
+
+module.exports = {
+    billboard
 }

@@ -1,4 +1,8 @@
+const {billboard} = require('./billboard');
+
 console.log('hello git')
+billboard('hello there')
+
 
 const multi = (multiplier,...numbers)=> numbers.map(n=>n*multiplier);
 
