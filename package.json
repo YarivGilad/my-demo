@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ajar/marker": "^1.2.3"
+    "@ajar/marker": "^1.2.3",
+    "jest": "^24.9.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.2"
